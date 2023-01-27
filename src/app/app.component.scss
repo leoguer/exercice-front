@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import '../variables.scss';
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: $first-color;
+    color: $third-color;
+    ul{
+        list-style-type: none;
+        display: flex;
+        & li{
+            margin: 0 10px;
+            align-self: center;
+        }
+
+        & a{
+            text-decoration: none;
+            color: $third-color;
+            &:hover{
+                color:$second-color;
+            }
+        }
+    }
+}

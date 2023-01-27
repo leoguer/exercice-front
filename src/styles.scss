@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import './variables.scss';
+
+*{
+    font-family: Chivo;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $fourth-color;
+}
+
